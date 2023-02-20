@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px;
+    margin: 50px 100px;
 }
 
 .left-nav {
@@ -57,28 +57,29 @@ header {
 
 .body-container {
     margin: 100px auto;
-    width: 80vw;
-    height: 50vh;
+    width: 1500px;
+    height: 600px;
     position: relative;
+    border: solid black;
 }
 
-.middle-texts{
+.middle-texts {
     width: 600px;
     height: 400px;
 
     font-size: 22px;
 }
 
-.middle-texts h1{
+.middle-texts h1 {
     font-size: 80px
 }
 
-.product-image{
+.product-image {
     position: absolute;
     width: 600px;
     height: 600px;
-    right: 5%;
-    top: 0;
+    right: 0;
+    top: 0px;
     border: solid black 1px;
 }
 
@@ -88,6 +89,6 @@ header {
     gap: 50px;
 }
 
-.down-logo-images img{
+.down-logo-images img {
     width: 150px;
 }
