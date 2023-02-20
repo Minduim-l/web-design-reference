@@ -89,21 +89,28 @@ header img {
 
 .email {
     padding-top: 30px;
+
 }
 
 .email button {
     font-family: 'Alegreya Sans', sans-serif;
     border: solid black 2px;
     border-radius: 50px;
+    background-color: black;
+    color: white;
+padding: 10px;
+width: 100px;
 }
 
 .email input {
     font-family: 'Alegreya Sans', sans-serif;
-    border: solid black 2px;
+    border: solid black 1px;
     border-radius: 50px;
+    padding: 10px;
+    width: 200px;
 }
 
-.main img {
+.fumasa {
 position: absolute;
 right: 10px;
 top: 0px;
@@ -112,6 +119,8 @@ height: 600px;
 }
 
 .rdp a img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    margin-right: 15px;
+    padding-top: 150px;
+
 }
