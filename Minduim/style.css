@@ -61,14 +61,11 @@ header img {
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     position: relative;
     border: solid red;
     width: 1100px;
-    height: 500px;
-    margin: 0 auto;
+    height: 600px;
+    margin: 80px auto;
 }
 
 .txt {
@@ -86,9 +83,12 @@ header img {
 }
 
 .txt p {
-    padding-top: 20px;
+    padding-top: 10px;
 
+}
 
+.email {
+    padding-top: 30px;
 }
 
 .email button {
@@ -106,7 +106,12 @@ header img {
 .main img {
 position: absolute;
 right: 10px;
-top: 30px;
+top: 0px;
 width: 600px;
 height: 600px;
+}
+
+.rdp a img {
+    width: 50px;
+    height: 50px;
 }
